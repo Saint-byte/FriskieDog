@@ -1,12 +1,12 @@
 body
 {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;;
     text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6
 {
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat-Bold", sans-serif;
 }
 
 p
@@ -18,7 +18,7 @@ p
 
 .big-heading
 {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: "Montserrat-Black", sans-serif;
     font-size:  3.5rem;
     line-height: 1.5;
     font-weight: 900;
@@ -176,6 +176,11 @@ p
 {
     font-size: 3rem;
     line-height: 1.5;
+}
+
+.card-header h3
+{
+    font-weight: 900;
 }
 
 @media (max-width: 1028px)
